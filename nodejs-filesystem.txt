@@ -1,0 +1,18 @@
+Nodejs Filesystem
+
+
+ 	Github : https://github.com/AkashVinodhan/nodejs-filesystem
+	Render : https://nodejs-filesystem-5qmk.onrender.com/
+	
+	API endpoints : 
+
+		*  /createfile - Creates a txt file in a testfolder with the format dd-mm-yyyy - hr-min-sec.txt
+
+		*  /readfiles - Reads all the files in the test folder and returns an array with file names. 
+
+				Eg:
+				[
+    					"3-5-2023 - 14-41-17.txt",
+   					"3-5-2023 - 14-51-1.txt",
+    					"3-5-2023 - 14-53-21.txt"
+				] 
