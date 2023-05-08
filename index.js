@@ -16,10 +16,10 @@ app.get("/", (req, res) => {
 
 app.post("/createfile", (req, res) => {
   let d = new Date();
-  let filename = `${d.getDay()}-${
+  let filename = `${d.getDate()}-${
     d.getMonth() + 1
   }-${d.getFullYear()} - ${d.getHours()}-${d.getMinutes()}-${d.getSeconds()}`;
-  let content = `${d.getDay()}/${
+  let content = `${d.getDate()}/${
     d.getMonth() + 1
   }/${d.getFullYear()} ${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}`;
 
